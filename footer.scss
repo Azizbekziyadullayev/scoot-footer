@@ -1,0 +1,92 @@
+.footer {
+    background: #495567;
+    height: 300px;
+
+    &-container {
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       grid-gap: 20px;
+
+       .footer-cards {
+           display: flex;
+           align-items: center;
+
+           .footer-cards-header {
+                width: 415px;
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 48px;
+                letter-spacing: -2.14286px;
+                color: #FFFFFF;
+           }
+
+           .footer-images {
+               margin: 0 9px;
+           }
+        }
+
+          
+        .market-links {
+            transform: translateX(50px);
+        }
+    }
+    
+    .footer-bottom-part {
+        height: 96px;
+        background: #333A44;
+    }
+
+    .footer-cards-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+
+        .footer-bottom-cards {
+            display: flex;
+            align-items: center;
+            
+            .bottom-list {
+                display: flex;
+                align-items: center;
+                list-style: none;
+                margin-left: 58px;
+
+                .bottom-links {
+                    font-family: 'Space Mono';
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 15px;
+                    color: #939CAA;
+                    transition: 0.5s ease-in-out;
+                    cursor: pointer;
+                    margin: 0 16px;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: #FCB72B;;
+                    }
+                }
+            }
+        }
+        
+
+        .second-footer-bottom-section {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            
+            i {
+                color: #FCB72B;
+                font-size: 25px;
+                margin: 0 15px;
+                transition: 0.5s ease-in-out;
+                cursor: pointer;
+
+                &:hover {
+                    color: #f2f2f2;
+                }
+            }
+        }
+    }
+}
